@@ -1,0 +1,95 @@
+body {
+  background-color: #54c3ef;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#main_heading {
+  font-family: "Caveat Brush", cursive;
+  font-size: 90px;
+  text-shadow: 2px 5px #2b3252;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  color: #fad744;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.quiz_main_body {
+  background-color: #2b3252;
+  width: 60%;
+  height: auto;
+  align-items: center;
+  margin: auto;
+}
+#scoreBoard {
+  width: 150px;
+  height: 200px;
+  background-color: aliceblue;
+  font-family: "Source Sans Pro", sans-serif;
+  position: sticky;
+  right: 200px;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+form {
+  padding: 15px;
+}
+#question_label {
+  display: block;
+  color: #fad744;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#options_div {
+  padding: 15px;
+  font-size: 30px;
+  color: #fad744;
+  margin-bottom: 10px;
+}
+input {
+  margin-right: 10px;
+}
+hr {
+  border-bottom: 1px solid #fad744;
+  margin-top: 30px;
+}
+#submit_button {
+  margin-left: 40%;
+  /* top: 300px; */
+}
+#submit_btn {
+  width: 100px;
+  height: 40px;
+  /* bottom: 100px; */
+  top: -100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fad744;
+}
+#scoreBoard {
+  /* display: flex; */
+  font-size: 30px;
+  /* padding: 10px; */
+}
+#scoreText {
+  padding: 20px;
+  display: inline-block;
+}
+#totalScore {
+  /* padding: 20px; */
+  /* display: flex; */
+  /* left: 100px; */
+  padding: 20px;
+  display: inline-block;
+}
+i {
+  padding-left: 20px;
+
+  right: 0px;
+}
